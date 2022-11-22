@@ -4,8 +4,217 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+
+    <title>Iranian film week in Finland</title>
   </head>
-  <body></body>
+  <body>
+    <section class="mobile-menu">
+      <img src="assets/x.svg" alt="" onclick="hideMobileMenu()" id="x" />
+      <ul>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="#projects-section">Portfolio</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="#about-section">About</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="#contact-section">Contact</a>
+        </li>
+        <li><hr /></li>
+      </ul>
+    </section>
+    <section class="grid-container">
+      <header>
+        <nav class="toolbar">
+          <!-- <a href="#" class="left-menu-item">Billy</a> -->
+          <section class="desktop-only">
+            <a
+              href="mailto:billy.mohajeri@gmail.com"
+              class="desktop-right-menu-item"
+            >
+              <img src="assets/desktop/mail.svg" alt="" />
+            </a>
+            <a
+              href="mailto:billy.mohajeri@gmail.com"
+              class="desktop-right-menu-item"
+            >
+              <img src="assets/desktop/mail.svg" alt="" />
+            </a>
+            <a href="#projects-section" class="desktop-right-menu-item"
+              >English</a
+            >
+            <a href="#about-section" class="desktop-right-menu-item">My Page</a>
+            <a href="#contact-section" class="desktop-right-menu-item"
+              >Logout</a
+            >
+          </section>
+          <section class="mobile-only" id="ham">
+            <img src="./assets/ham.png" alt="" />
+          </section>
+        </nav>
+        <!-- <a href="#"
+            ><img
+              src="./assets/ham.png"
+              alt="hamburger-menu"
+              class="hamburger-menu"
+          /></a> -->
+
+        <!-- <i class="fa-sharp fa-solid fa-bars"></i> -->
+        <!-- </nav> -->
+      </header>
+      <p class="home-1-title">"Hello! Cinema lovers"</p>
+      <h1 class="home-2-title">Iranian film week<br />in finland<br />2023</h1>
+      <p class="home-p">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat
+        est natus et ex repellendus ea, cum, a in numquam temporibus cumque
+        inventore aliquam commodi, voluptas ullam rerum maiores fugiat?
+      </p>
+      <h2 class="home-3-title">2023.1.5(THU) ~ 13(FRI)</h2>
+      <h4 class="home-4-title">
+        @ National Museum of Finland, Art Center Nabi and more
+      </h4>
+      <section class="main-program">
+        <h3 class="main-program-title">Main Program</h3>
+        <hr class="main-program-line" />
+
+        <ul>
+          <li>
+            <article>
+              <ul class="program-parts">
+                <li>
+                  <img class="icon" src="./assets/microphone.png" alt="" />
+                </li>
+                <li class="icon-title">Lecture</li>
+                <li class="icon-description">
+                  m dolor sit amet consectetur, adipisicing elit. Earum ast
+                  consectetur, adipisicing elit. Earum ast consectetur,
+                </li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article>
+              <ul class="program-parts">
+                <li>
+                  <img class="icon" src="./assets/microphone.png" alt="" />
+                </li>
+                <li class="icon-title">Lecture</li>
+                <li class="icon-description">
+                  m dolor sit amet consectetur, adipisicing elit. Earum ast
+                  consectetur, adipisicing elit. Earum ast consectetur,
+                </li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article>
+              <ul class="program-parts">
+                <li>
+                  <img class="icon" src="./assets/microphone.png" alt="" />
+                </li>
+                <li class="icon-title">Lecture</li>
+                <li class="icon-description">
+                  m dolor sit amet consectetur, adipisicing elit. Earum ast
+                  consectetur, adipisicing elit. Earum ast consectetur,
+                </li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article>
+              <ul class="program-parts">
+                <li>
+                  <img class="icon" src="./assets/microphone.png" alt="" />
+                </li>
+                <li class="icon-title">Lecture</li>
+                <li class="icon-description">
+                  m dolor sit amet consectetur, adipisicing elit. Earum ast
+                  consectetur, adipisicing elit. Earum ast consectetur,
+                </li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article>
+              <ul class="program-parts">
+                <li>
+                  <img class="icon" src="./assets/microphone.png" alt="" />
+                </li>
+                <li class="icon-title">Lecture</li>
+                <li class="icon-description">
+                  m dolor sit amet consectetur, adipisicing elit. Earum ast
+                  consectetur, adipisicing elit. Earum ast consectetur,
+                </li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+        <button class="btn-join">Join CC Global Summit 2015</button>
+      </section>
+      <section class="speakers">
+        <h3 class="main-program-title">Featured Speakers</h3>
+        <hr class="speakers-line" />
+
+        <ul>
+          <li>
+            <article>
+              <ul class="speaker-parts">
+                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li class="speaker-text-box">
+                  <ul>
+                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-title">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Delectus pa
+                    </li>
+                    <li><hr class="speaker-line" /></li>
+                    <li class="speaker-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Et voluptatum officia provident consequuntur error,
+                      nostrum quaerat esse, quide
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article>
+              <ul class="speaker-parts">
+                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li class="speaker-text-box">
+                  <ul>
+                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-title">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Delectus pa
+                    </li>
+                    <li><hr class="speaker-line" /></li>
+                    <li class="speaker-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Et voluptatum officia provident consequuntur error,
+                      nostrum quaerat esse, quide
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+        <button class="btn-more">More</button>
+      </section>
+    </section>
+  </body>
 </html>

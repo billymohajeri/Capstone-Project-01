@@ -38,7 +38,48 @@
     <section class="grid-container">
       <header>
         <nav class="toolbar">
-          <!-- <a href="#" class="left-menu-item">Billy</a> -->
+          <ul class="desktop-only black-nav">
+            <a href="#" class="desktop-right-menu-item">
+              <div class="toolbar-icon-facebook"></div>
+            </a>
+            <a href="#" class="desktop-right-menu-item">
+              <div class="toolbar-icon-twitter"></div>
+            </a>
+            <a href="#projects-section" class="desktop-right-menu-item"
+              >Logout</a
+            >
+            <a href="#about-section" class="desktop-right-menu-item">My Page</a>
+            <a href="#contact-section" class="desktop-right-menu-item"
+              >Finnish</a
+            >
+          </ul>
+
+          <ul class="desktop-only white-nav">
+            <li>
+              <img
+                src="./assets/Kansallismuseo-logo-2014.png"
+                alt=""
+                class="menu-logo"
+              />
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li><a href="">Program</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Sponsor</a></li>
+            <li><a href="">News</a></li>
+            <li id="bordered-menu-item"><a href="">Buy a ticket</a></li>
+          </ul>
+
+          <section class="mobile-only" id="ham">
+            <img src="./assets/ham.png" alt="" />
+          </section>
+        </nav>
+      </header>
+
+      <!-- <header>
+        <nav class="toolbar">
           <section class="desktop-only">
             <a
               href="mailto:billy.mohajeri@gmail.com"
@@ -64,16 +105,7 @@
             <img src="./assets/ham.png" alt="" />
           </section>
         </nav>
-        <!-- <a href="#"
-            ><img
-              src="./assets/ham.png"
-              alt="hamburger-menu"
-              class="hamburger-menu"
-          /></a> -->
-
-        <!-- <i class="fa-sharp fa-solid fa-bars"></i> -->
-        <!-- </nav> -->
-      </header>
+      </header> -->
       <section class="home-text">
         <p class="home-1-title">"Hello! Cinema lovers"</p>
         <h1 class="home-2-title">
@@ -92,76 +124,57 @@
       <section class="main-program">
         <h3 class="main-program-title">Main Program</h3>
         <hr class="main-program-line" />
-
         <ul class="program-box">
           <li>
-            <article>
-              <ul class="program-parts">
-                <li>
-                  <img class="icon" src="./assets/microphone.png" alt="" />
-                </li>
-                <li class="icon-title">Lecture</li>
-                <li class="icon-description">
-                  m dolor sit amet consectetur, adipisicing elit. Earum ast
-                  consectetur, adipisicing elit. Earum ast consectetur,
-                </li>
-              </ul>
+            <article class="program-parts">
+              <img src="./assets/lecture.png" alt="" class="icon" />
+              <h4 class="icon-title">Lecture</h4>
+              <p class="icon-description">
+                Listen to the speakers from various countries about iranian
+                cinema
+              </p>
             </article>
           </li>
           <li>
-            <article>
-              <ul class="program-parts">
-                <li>
-                  <img class="icon" src="./assets/microphone.png" alt="" />
-                </li>
-                <li class="icon-title">Lecture</li>
-                <li class="icon-description">
-                  m dolor sit amet consectetur, adipisicing elit. Earum ast
-                  consectetur, adipisicing elit. Earum ast consectetur,
-                </li>
-              </ul>
+            <article class="program-parts">
+              <img class="icon" src="./assets/exhibition.png" alt="" />
+
+              <h4 class="icon-title">Exhibition</h4>
+              <p class="icon-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt
+              </p>
             </article>
           </li>
           <li>
-            <article>
-              <ul class="program-parts">
-                <li>
-                  <img class="icon" src="./assets/microphone.png" alt="" />
-                </li>
-                <li class="icon-title">Lecture</li>
-                <li class="icon-description">
-                  m dolor sit amet consectetur, adipisicing elit. Earum ast
-                  consectetur, adipisicing elit. Earum ast consectetur,
-                </li>
-              </ul>
+            <article class="program-parts">
+              <img class="icon" src="./assets/chat-group.png" alt="" />
+
+              <h4 class="icon-title">Forum</h4>
+              <p class="icon-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt
+              </p>
             </article>
           </li>
           <li>
-            <article>
-              <ul class="program-parts">
-                <li>
-                  <img class="icon" src="./assets/microphone.png" alt="" />
-                </li>
-                <li class="icon-title">Lecture</li>
-                <li class="icon-description">
-                  m dolor sit amet consectetur, adipisicing elit. Earum ast
-                  consectetur, adipisicing elit. Earum ast consectetur,
-                </li>
-              </ul>
+            <article class="program-parts">
+              <img class="icon" src="./assets/training.png" alt="" />
+              <h4 class="icon-title">Workshop</h4>
+              <p class="icon-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt
+              </p>
             </article>
           </li>
           <li>
-            <article>
-              <ul class="program-parts">
-                <li>
-                  <img class="icon" src="./assets/microphone.png" alt="" />
-                </li>
-                <li class="icon-title">Lecture</li>
-                <li class="icon-description">
-                  m dolor sit amet consectetur, adipisicing elit. Earum ast
-                  consectetur, adipisicing elit. Earum ast consectetur,
-                </li>
-              </ul>
+            <article class="program-parts">
+              <img class="icon" src="./assets/networking.png" alt="" />
+              <h4 class="icon-title">Networking</h4>
+              <p class="icon-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Incidunt
+              </p>
             </article>
           </li>
         </ul>
@@ -170,15 +183,16 @@
       <section class="speakers">
         <h3 class="main-program-title">Featured Speakers</h3>
         <hr class="speakers-line" />
-
         <ul class="speakers-box">
           <li>
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li>
+                  <img src="./assets/01.jpg" alt="" class="speaker-pic" />
+                </li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Amir Pouria</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -197,10 +211,10 @@
           <li>
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li><img src="./assets/02.jpg" alt="" /></li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Mohammad Rasoulof</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -219,10 +233,10 @@
           <li class="desktop-only">
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li><img src="./assets/03.jpg" alt="" /></li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Jafar Panahi</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -241,10 +255,10 @@
           <li class="desktop-only">
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li><img src="./assets/04.jpg" alt="" /></li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Asghar Farhadi</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -263,10 +277,10 @@
           <li class="desktop-only">
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li><img src="./assets/05.jpg" alt="" /></li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Shohreh Aghdashloo</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -285,10 +299,10 @@
           <li class="desktop-only">
             <article>
               <ul class="speaker-parts">
-                <li><img src="./assets/microphone.png" alt="" /></li>
+                <li><img src="./assets/06.jpg" alt="" /></li>
                 <li class="speaker-text-box">
                   <ul>
-                    <li class="speaker-name">Lecture</li>
+                    <li class="speaker-name">Susan Taslimi</li>
                     <li class="speaker-title">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Delectus pa
@@ -307,18 +321,17 @@
         </ul>
         <button class="btn-more">More</button>
       </section>
-<section class="desktop-only">
-      <section class="partners-container">
-        <h3 class="main-program-title">Partner</h3>
-        <hr class="main-program-line" />
-        <section class="partners">
-          <img src="./assets/microphone.png" alt="" />
-          <img src="./assets/microphone.png" alt="" />
-          <img src="./assets/microphone.png" alt="" />
-          <img src="./assets/microphone.png" alt="" />
-          <img src="./assets/microphone.png" alt="" />
-        </section>
-        <!-- <h2 class="about-3-title">
+      <section class="desktop-only">
+        <section class="partners-container">
+          <h3 class="main-program-title">Partner</h3>
+          <hr class="speakers-line" />
+          <section class="partners">
+            <img src="./assets/imdb.png" alt="" />
+            <img src="./assets/oscars.png" alt="" />
+            <img src="./assets/cann.png" alt="" />
+            <img src="./assets/bbc.png" alt="" />
+          </section>
+          <!-- <h2 class="about-3-title">
           Lorem ipsum dolor sit amet consectetur adipisicing <br />Lorem ipsum
           dolor sit amet
         </h2>
@@ -338,15 +351,19 @@
           <h3>2011</h3>
           <p>Lorem ipsum dolor sit amet</p>
         </section> -->
-      </section>
+        </section>
 
-      <section class="footer">
-        <img src="./assets/microphone.png" alt="" class="footer-logo" />
-        <h2 class="footer-text">
-          or sit amet consectetur adipisicing <br />Lorem ipsum dolor sit amet
-        </h2>
+        <section class="footer">
+          <img
+            src="./assets/Kansallismuseo-logo-2014.png"
+            alt=""
+            class="footer-logo"
+          />
+          <h2 class="footer-text">
+            Lorem ipsum dolor sit amet consectetur<br />Lorem ipsum dolor sit
+          </h2>
+        </section>
       </section>
-    </section>
     </section>
   </body>
 </html>

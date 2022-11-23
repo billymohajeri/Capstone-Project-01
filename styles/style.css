@@ -29,6 +29,7 @@ ul {
 .grid-container {
   display: grid;
   margin: 0;
+  background-image: url(../assets/my_bg.png);
 }
 
 .bg {
@@ -161,25 +162,28 @@ ul {
   width: 10%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   border: none;
   border-bottom: 1px solid #ec5242;
 }
 .main-program .program-parts {
   display: flex;
-  align-items: center;
   background-color: rgba(124, 124, 124, 0.2);
   padding: 10px;
   margin: 0.75rem 0.75rem 0 0.75rem;
 }
 .main-program .program-parts .icon {
-  width: 145%;
+  margin: 4%;
+  width: 10%;
+  height: 10%;
+  min-width: 3rem;
 }
 .main-program .program-parts .icon-title {
   color: #ec5242;
   padding-right: 5%;
   padding-left: 5%;
   font-weight: bold;
+  min-width: 5rem;
 }
 .main-program .program-parts .icon-description {
   color: #d0d3d5;
@@ -447,6 +451,9 @@ ul {
   .toolbar-icon-twitter:hover {
     background-image: url(../assets/twitter-orange.png);
   }
+  .grid-container {
+    background-image: url(/Capstone-Project-01/assets/desktop_bg.png);
+  }
   .home-text {
     margin-left: 15%;
   }
@@ -520,13 +527,30 @@ ul {
   }
   .main-program .main-program-line {
     width: 3%;
+    margin-bottom: 2rem;
+  }
+  .main-program .program-parts:hover {
+    border: 1px solid white;
   }
   .main-program .program-parts {
     display: flex;
     flex-direction: column;
+    margin: 0.75rem 0.75rem 0 0;
   }
   .main-program .program-parts .icon {
-    width: 100%;
+    width: 35%;
+    opacity: 70%;
+    margin-bottom: 0;
+  }
+  .main-program .program-parts .icon-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .main-program .program-parts .icon-description {
+    margin-top: 10px;
+    text-align: center;
   }
   .speakers-box {
     display: grid;
@@ -535,6 +559,16 @@ ul {
   .partners-container {
     padding-top: 1%;
     padding-bottom: 3%;
+  }
+  .partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 5rem;
+  }
+  .partners img {
+    width: 80%;
   }
   .about-2-title {
     font-size: 4vw;
@@ -577,7 +611,8 @@ ul {
     background-position-y: 80%;
   }
   .footer {
-    background-color: #2e2e2e;
+    background-color: white;
+    margin-top: 0;
     padding-bottom: 3%;
     padding-top: 3%;
     max-height: 100px;
@@ -585,13 +620,22 @@ ul {
     align-items: center;
     justify-content: center;
   }
+  .footer .footer-logo {
+    width: 20vw;
+  }
   .footer .footer-text {
     text-align: left;
-    color: white;
-    opacity: 50%;
+    color: #272a31;
+    opacity: 75%;
     font-size: 1rem;
   }
   .logo-box {
     max-width: 20vw;
+  }
+  .speakers-line {
+    width: 3% !important;
+  }
+  .speaker-line {
+    width: 8% !important;
   }
 }/*# sourceMappingURL=style.css.map */

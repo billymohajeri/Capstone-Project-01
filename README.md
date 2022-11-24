@@ -1,33 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+<h3><b>Microverse Capstone Project - Module 1</b></h3>
 
 </div>
 
@@ -41,27 +19,25 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  <!-- - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+<!-- - [❓ FAQ](#faq) -->
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Iranian Film Week 2023 <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Iranian Film Week 2023** is my first capstone project based on an online website for a conference. But I personalize the content for a film review week.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,21 +48,10 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Lato Fonts</li>
   </ul>
 </details>
 
@@ -94,11 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Responsive design for both Desktop and Mobile**
+- **Speaker section geerated dynamically via js**
+- **Designed with mobile first concept**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +71,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://billymohajeri.github.io/Capstone-Project-01/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,25 +79,30 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+To get a local copy up and running, follow these steps:
 
-To get a local copy up and running, follow these steps.
+```sh
+  git clone git@github.com:billymohajeri/Capstone-Project-01.git
+```
 
 ### Prerequisites
 
 In order to run this project you need:
 
+- Code Editor: VS Code
+- Web Browser
 <!--
 Example command:
 
 ```sh
  gem install rails
 ```
- -->
 
-### Setup
+-->
 
-Clone this repository to your desired folder:
+<!-- ### Setup -->
+
+<!-- Clone this repository to your desired folder: -->
 
 <!--
 Example commands:
@@ -145,9 +113,9 @@ Example commands:
 ```
 --->
 
-### Install
+<!-- ### Install -->
 
-Install this project with:
+<!-- Install this project with: -->
 
 <!--
 Example command:
@@ -158,9 +126,9 @@ Example command:
 ```
 --->
 
-### Usage
+<!-- ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -170,9 +138,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -182,9 +150,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -200,19 +168,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Billy Mohajeri**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@BillyMohajeri](https://github.com/billymohajeri)
+- Twitter: [@BillyMohajeri](https://twitter.com/BillyMohajeri)
+- LinkedIn: [@BillyMohajeri](https://www.linkedin.com/in/billymohajeri)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,9 +184,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Add a dynamic button for mobile version**
+- **Add form for reserve tickets**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,7 +205,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, you can support me by giving a ⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,15 +213,17 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank...
+Original design idea by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+I would like to thank all of my code reviewers for giving me constructive feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+<!-- ## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -270,7 +233,13 @@ I would like to thank...
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+## 📺 Presentation <a name="presentation"></a>
+
+[Presentation about this project](https://www.loom.com/share/506c91dd53a44229a9c31ec8c3f6a828).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,6 +249,6 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->

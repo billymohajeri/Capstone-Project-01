@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+
+    <title>About</title>
+  </head>
+  <body>
+    <section class="grid-container">
+      <!-- <section class="bg"> -->
+      <header>
+        <nav class="toolbar">
+          <section class="mobile-menu">
+            <img
+              src="assets/x.svg"
+              alt="close"
+              onclick="hideMobileMenu()"
+              id="x"
+            />
+            <ul>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./index.html">Home</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./index.html#program">Program</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./index.html#see-program-btn">Join</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="#sponsor">Sponsor</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./index.html#news">News</a>
+              </li>
+              <li><hr /></li>
+            </ul>
+          </section>
+          <ul class="desktop-only black-nav">
+            <a href="#" class="desktop-right-menu-item">
+              <div class="toolbar-icon-facebook"></div>
+            </a>
+            <a href="#" class="desktop-right-menu-item">
+              <div class="toolbar-icon-twitter"></div>
+            </a>
+            <a href="#projects-section" class="desktop-right-menu-item"
+              >Logout</a
+            >
+            <a href="#about-section" class="desktop-right-menu-item">My Page</a>
+            <a href="#contact-section" class="desktop-right-menu-item"
+              >Finnish</a
+            >
+          </ul>
+
+          <ul class="desktop-only white-nav">
+            <li>
+              <a href="./index.html">
+                <img
+                  src="./assets/logo-black.png"
+                  alt="logo"
+                  class="menu-logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="./index.html#program">Program</a></li>
+            <li><a href="./index.html#see-program">Join</a></li>
+            <li><a href="./index.html#sponsor">Sponsor</a></li>
+            <li><a href="./index.html#news">News</a></li>
+            <li id="bordered-menu-item"><a href="">Buy a ticket</a></li>
+          </ul>
+
+          <section class="mobile-only" id="ham">
+            <img
+              src="./assets/ham.png"
+              alt="hamburger-menu"
+              onclick="showMobileMenu()"
+            />
+          </section>
+        </nav>
+      </header>
+      <section class="about-body">
+        <p class="about-1-title mobile-only">"Hello! Cinema lovers"</p>
+        <h1 class="about-2-title">Iranian film week<br />in finland 2023</h1>
+        <hr class="logo-part-line1 desktop-only" />
+        <p class="about-p">
+          A survey from 150 Iranian critics and professionals showed in the best
+          Persian movie magazine, World of Picture, Bashu was voted as “The Best
+          Iranian Film of All Time”. According to the credits, It was the film’s
+          ability to promote social commentary in a subversive government that
+          made it noteworthy for all times.
+        </p>
+        <h2 class="about-3-title">
+          Please contact us per Email for any further questions about<br />Iranian
+          film week in Finland 2023!
+        </h2>
+        <h4 class="about-4-title">
+          <a href="mailto:film@finland.fi">film@finland.fi</a>
+        </h4>
+        <!-- </section> -->
+
+        <section class="logo-part">
+          <h3 class="main-program-title">The National Museum Logo</h3>
+          <hr class="logo-part-line1" />
+          <h2 class="about-3-title">
+            The logo of the national museum was designed<br />by John Doe in
+            1998
+          </h2>
+          <img class="logo-box" src="./assets/logo-black.png" />
+          <hr class="logo-part-line2" />
+          <h3 class="main-program-title">See the film weeks in Finland</h3>
+          <hr class="logo-part-line1" />
+          <h2 class="about-3-title">
+            Take a look at the last two film weeks<br />which took place in Oulu
+            and Tampere
+          </h2>
+
+          <section class="about-images">
+            <img src="./assets/11.jpg" alt="last-weeks-1" class="red-image" />
+            <img src="./assets/22.jpg" alt="last-weeks-2" class="red-image" />
+          </section>
+        </section>
+
+        <section class="partners-container mobile-only" id="sponsor">
+          <h3 class="main-program-title">Partner</h3>
+          <hr class="main-program-line" />
+          <section class="partners">
+            <img src="./assets/cann.png" alt="cann" />
+            <img src="./assets/imdb.png" alt="imdb" />
+            <img src="./assets/bbc.png" alt="bbc" />
+            <img src="./assets/oscars.png" alt="oscars" />
+          </section>
+        </section>
+
+        <footer class="footer-about">
+          <img
+            src="./assets/logo-white.png"
+            alt="logo"
+            class="footer-about-logo desktop-only"
+          />
+
+          <img
+            src="./assets/logo-black.png"
+            alt="logo"
+            class="footer-about-logo mobile-only"
+          />
+          <h2 class="footer-about-text">
+            2023 film week in Finland<br />Some rights reserved.
+          </h2>
+        </footer>
+      </section>
+      <script src="about.js"></script>
+    </section>
+  </body>
+</html>

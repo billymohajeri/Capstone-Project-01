@@ -107,12 +107,12 @@ speakersSection.append(btnMore);
 
 function hideMobileMenu() {
   document.querySelector('.mobile-menu').style.display = 'none';
-  document.querySelector('.grid-container').style.filter = '';
+  document.querySelector('.home-body').style.filter = '';
 }
 
 function showMobileMenu() {
   document.querySelector('.mobile-menu').style.display = 'block';
-  document.querySelector('.grid-container').style.filter = 'blur(5px)';
+  document.querySelector('.home-body').style.filter = 'blur(5px)';
 }
 
 const ham = document.getElementById('ham');

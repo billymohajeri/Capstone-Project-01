@@ -1,11 +1,11 @@
 function hideMobileMenu() {
   document.querySelector('.mobile-menu').style.display = 'none';
-  document.querySelector('.grid-container').style.filter = '';
+  document.querySelector('.about-body').style.filter = '';
 }
 
 function showMobileMenu() {
   document.querySelector('.mobile-menu').style.display = 'block';
-  document.querySelector('.grid-container').style.filter = 'blur(5px)';
+  document.querySelector('.about-body').style.filter = 'blur(5px)';
 }
 
 const ham = document.getElementById('ham');

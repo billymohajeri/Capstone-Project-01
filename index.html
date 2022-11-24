@@ -18,34 +18,40 @@
     <title>Iranian film week in Finland</title>
   </head>
   <body>
-    <section class="mobile-menu">
-      <img src="assets/x.svg" alt="close" onclick="hideMobileMenu()" id="x" />
-      <ul>
-        <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="./about.html">About</a>
-        </li>
-        <li><hr /></li>
-        <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#program">Program</a>
-        </li>
-        <li><hr /></li>
-        <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#see-program-btn">Join</a>
-        </li>
-        <li><hr /></li>
-        <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="./about.html#sponsor">Sponsor</a>
-        </li>
-        <li><hr /></li>
-        <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#news">News</a>
-        </li>
-        <li><hr /></li>
-      </ul>
-    </section>
     <section class="grid-container">
       <header>
         <nav class="toolbar">
+          <section class="mobile-menu">
+            <img
+              src="assets/x.svg"
+              alt="close"
+              onclick="hideMobileMenu()"
+              id="x"
+            />
+            <ul>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./about.html">About</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="#program">Program</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="#see-program-btn">Join</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="./about.html#sponsor">Sponsor</a>
+              </li>
+              <li><hr /></li>
+              <li class="mobile-menu-items" onclick="hideMobileMenu()">
+                <a href="#news">News</a>
+              </li>
+              <li><hr /></li>
+            </ul>
+          </section>
+
           <ul class="desktop-only black-nav">
             <a href="#" class="desktop-right-menu-item">
               <div class="toolbar-icon-facebook"></div>
@@ -91,121 +97,124 @@
           </section>
         </nav>
       </header>
-      <section class="home-text">
-        <p class="home-1-title">"Hello! Cinema lovers"</p>
-        <h1 class="home-2-title">
-          Iranian film week<br />in finland<br />2023
-        </h1>
-        <p class="home-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          placeat est natus et ex repellendus ea, cum, a in numquam temporibus
-          cumque inventore aliquam commodi, voluptas ullam rerum maiores fugiat?
-        </p>
-        <h2 class="home-3-title">2023.1.5(THU) ~ 13(FRI)</h2>
-        <h4 class="home-4-title">
-          @ National Museum of Finland, Art Center Nabi and more
-        </h4>
-      </section>
-      <section class="main-program" id="program">
-        <h3 class="main-program-title">Main Program</h3>
-        <hr class="main-program-line" />
-        <ul class="program-box">
-          <li>
-            <article class="program-parts">
-              <img src="./assets/lecture.png" alt="lecture" class="icon" />
-              <h4 class="icon-title">Lecture</h4>
-              <p class="icon-description">
-                Listen to the speakers from various countries about iranian
-                cinema
-              </p>
-            </article>
-          </li>
-          <li>
-            <article class="program-parts">
-              <img
-                class="icon"
-                src="./assets/exhibition.png"
-                alt="exhibition"
-              />
-
-              <h4 class="icon-title">Exhibition</h4>
-              <p class="icon-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt
-              </p>
-            </article>
-          </li>
-          <li>
-            <article class="program-parts">
-              <img
-                class="icon"
-                src="./assets/chat-group.png"
-                alt="chat-group"
-              />
-
-              <h4 class="icon-title">Forum</h4>
-              <p class="icon-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt
-              </p>
-            </article>
-          </li>
-          <li>
-            <article class="program-parts">
-              <img class="icon" src="./assets/training.png" alt="training" />
-              <h4 class="icon-title">Workshop</h4>
-              <p class="icon-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt
-              </p>
-            </article>
-          </li>
-          <li>
-            <article class="program-parts">
-              <img
-                class="icon"
-                src="./assets/networking.png"
-                alt="networking"
-              />
-              <h4 class="icon-title">Networking</h4>
-              <p class="icon-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt
-              </p>
-            </article>
-          </li>
-        </ul>
-        <button class="btn-join" id="see-program-btn">
-          Join the program now!
-        </button>
-        <a href="#" class="see-the-program desktop-only" id="see-program-link"
-          >See the whole program</a
-        >
-      </section>
-      <section class="speakers" id="news">
-        <!-- This section will create dynamically via script.js when the page loads. -->
-      </section>
-      <section class="desktop-only">
-        <section class="partners-container" id="sponsor">
-          <h3 class="main-program-title">Partner</h3>
-          <hr class="speakers-line" />
-          <section class="partners">
-            <img src="./assets/imdb.png" alt="imdb" />
-            <img src="./assets/oscars.png" alt="oscars" />
-            <img src="./assets/cann.png" alt="cann" />
-            <img src="./assets/bbc.png" alt="bbc" />
-          </section>
+      <section class="home-body">
+        <section class="home-text">
+          <p class="home-1-title">"Hello! Cinema lovers"</p>
+          <h1 class="home-2-title">
+            Iranian film week<br />in finland<br />2023
+          </h1>
+          <p class="home-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            placeat est natus et ex repellendus ea, cum, a in numquam temporibus
+            cumque inventore aliquam commodi, voluptas ullam rerum maiores
+            fugiat?
+          </p>
+          <h2 class="home-3-title">2023.1.5(THU) ~ 13(FRI)</h2>
+          <h4 class="home-4-title">
+            @ National Museum of Finland, Art Center Nabi and more
+          </h4>
         </section>
+        <section class="main-program" id="program">
+          <h3 class="main-program-title">Main Program</h3>
+          <hr class="main-program-line" />
+          <ul class="program-box">
+            <li>
+              <article class="program-parts">
+                <img src="./assets/lecture.png" alt="lecture" class="icon" />
+                <h4 class="icon-title">Lecture</h4>
+                <p class="icon-description">
+                  Listen to the speakers from various countries about iranian
+                  cinema
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="program-parts">
+                <img
+                  class="icon"
+                  src="./assets/exhibition.png"
+                  alt="exhibition"
+                />
 
-        <section class="footer-home">
-          <img
-            src="./assets/logo-black.png"
-            alt="logo"
-            class="footer-home-logo"
-          />
-          <h2 class="footer-home-text">
-            Lorem ipsum dolor sit amet consectetur<br />Lorem ipsum dolor sit
-          </h2>
+                <h4 class="icon-title">Exhibition</h4>
+                <p class="icon-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="program-parts">
+                <img
+                  class="icon"
+                  src="./assets/chat-group.png"
+                  alt="chat-group"
+                />
+
+                <h4 class="icon-title">Forum</h4>
+                <p class="icon-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="program-parts">
+                <img class="icon" src="./assets/training.png" alt="training" />
+                <h4 class="icon-title">Workshop</h4>
+                <p class="icon-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="program-parts">
+                <img
+                  class="icon"
+                  src="./assets/networking.png"
+                  alt="networking"
+                />
+                <h4 class="icon-title">Networking</h4>
+                <p class="icon-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt
+                </p>
+              </article>
+            </li>
+          </ul>
+          <button class="btn-join" id="see-program-btn">
+            Join the program now!
+          </button>
+          <a href="#" class="see-the-program desktop-only" id="see-program-link"
+            >See the whole program</a
+          >
+        </section>
+        <section class="speakers" id="news">
+          <!-- This section will create dynamically via script.js when the page loads. -->
+        </section>
+        <section class="desktop-only">
+          <section class="partners-container" id="sponsor">
+            <h3 class="main-program-title">Partner</h3>
+            <hr class="speakers-line" />
+            <section class="partners">
+              <img src="./assets/imdb.png" alt="imdb" />
+              <img src="./assets/oscars.png" alt="oscars" />
+              <img src="./assets/cann.png" alt="cann" />
+              <img src="./assets/bbc.png" alt="bbc" />
+            </section>
+          </section>
+
+          <footer class="footer-home">
+            <img
+              src="./assets/logo-black.png"
+              alt="logo"
+              class="footer-home-logo"
+            />
+            <h2 class="footer-home-text">
+              Lorem ipsum dolor sit amet consectetur<br />Lorem ipsum dolor sit
+            </h2>
+          </footer>
         </section>
       </section>
     </section>

@@ -863,6 +863,15 @@ ul {
 
   .speakers-line {
     width: 3% !important;
+    width: 10%;
+    margin: {
+      left: auto;
+      right: auto;
+      bottom: 1rem;
+    }
+
+    border: none;
+    border-bottom: 2px solid $my-orange;
   }
 
   .speaker-line {

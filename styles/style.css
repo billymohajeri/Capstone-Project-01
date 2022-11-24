@@ -727,6 +727,12 @@ ul {
 
   .speakers-line {
     width: 3% !important;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #ec5242;
   }
 
   .speaker-line {

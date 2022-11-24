@@ -384,7 +384,8 @@ ul {
 
 .mobile-menu {
   background-color: #3c3a39;
-  display: none;
+  display: block;
+  transition: 25ms;
   height: 80%;
   width: 80%;
   z-index: 2;
@@ -637,5 +638,12 @@ ul {
   }
   .speaker-line {
     width: 8% !important;
+  }
+  .see-the-program {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

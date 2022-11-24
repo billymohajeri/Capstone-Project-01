@@ -18,6 +18,31 @@
     <title>About</title>
   </head>
   <body>
+    <section class="mobile-menu">
+      <img src="assets/x.svg" alt="" onclick="hideMobileMenu()" id="x" />
+      <ul>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="./index.html">Home</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="./index.html#program">Program</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="./index.html#see-program-btn">Join</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="#sponsor">Sponsor</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="./index.html#news">News</a>
+        </li>
+        <li><hr /></li>
+      </ul>
+    </section>
     <section class="grid-container">
       <section class="bg">
         <header>
@@ -49,12 +74,12 @@
                 />
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="./index.html">Home</a>
               </li>
-              <li><a href="">Program</a></li>
-              <li><a href="">Join</a></li>
-              <li><a href="">Sponsor</a></li>
-              <li><a href="">News</a></li>
+              <li><a href="./index.html#program">Program</a></li>
+              <li><a href="./index.html#see-program">Join</a></li>
+              <li><a href="./index.html#sponsor">Sponsor</a></li>
+              <li><a href="./index.html#news">News</a></li>
               <li id="bordered-menu-item"><a href="">Buy a ticket</a></li>
             </ul>
 
@@ -107,7 +132,7 @@
         </section>
       </section>
 
-      <section class="partners-container mobile-only">
+      <section class="partners-container mobile-only" id="sponsor">
         <h3 class="main-program-title">Partner</h3>
         <hr class="main-program-line" />
         <section class="partners">
@@ -120,7 +145,7 @@
 
       <section class="footer">
         <img
-          src="./assets/kansallismuseo.png"
+          src="./assets/Kansallismuseo-logo-2014.png"
           alt=""
           class="footer-logo desktop-only"
         />
@@ -135,5 +160,6 @@
         </h2>
       </section>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

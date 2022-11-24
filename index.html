@@ -22,15 +22,23 @@
       <img src="assets/x.svg" alt="" onclick="hideMobileMenu()" id="x" />
       <ul>
         <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#projects-section">Portfolio</a>
+          <a href="./about.html">About</a>
         </li>
         <li><hr /></li>
         <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#about-section">About</a>
+          <a href="#program">Program</a>
         </li>
         <li><hr /></li>
         <li class="mobile-menu-items" onclick="hideMobileMenu()">
-          <a href="#contact-section">Contact</a>
+          <a href="#see-program-btn">Join</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="./about.html#sponsor">Sponsor</a>
+        </li>
+        <li><hr /></li>
+        <li class="mobile-menu-items" onclick="hideMobileMenu()">
+          <a href="#news">News</a>
         </li>
         <li><hr /></li>
       </ul>
@@ -63,17 +71,17 @@
               />
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="./about.html">About</a>
             </li>
-            <li><a href="">Program</a></li>
-            <li><a href="">Join</a></li>
-            <li><a href="">Sponsor</a></li>
-            <li><a href="">News</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#see-program-link">Join</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <li><a href="#news">News</a></li>
             <li id="bordered-menu-item"><a href="">Buy a ticket</a></li>
           </ul>
 
           <section class="mobile-only" id="ham">
-            <img src="./assets/ham.png" alt="" />
+            <img src="./assets/ham.png" alt="" onclick="showMobileMenu()" />
           </section>
         </nav>
       </header>
@@ -121,7 +129,7 @@
           @ National Museum of Finland, Art Center Nabi and more
         </h4>
       </section>
-      <section class="main-program">
+      <section class="main-program" id="program">
         <h3 class="main-program-title">Main Program</h3>
         <hr class="main-program-line" />
         <ul class="program-box">
@@ -178,9 +186,14 @@
             </article>
           </li>
         </ul>
-        <button class="btn-join">Join CC Global Summit 2015</button>
+        <button class="btn-join" id="see-program-btn">
+          Join CC Global Summit 2015
+        </button>
+        <a href="#" class="see-the-program desktop-only" id="see-program-link"
+          >See the whole program</a
+        >
       </section>
-      <section class="speakers">
+      <section class="speakers" id="news">
         <h3 class="main-program-title">Featured Speakers</h3>
         <hr class="speakers-line" />
         <ul class="speakers-box">
@@ -322,7 +335,7 @@
         <button class="btn-more">More</button>
       </section>
       <section class="desktop-only">
-        <section class="partners-container">
+        <section class="partners-container" id="sponsor">
           <h3 class="main-program-title">Partner</h3>
           <hr class="speakers-line" />
           <section class="partners">
@@ -365,5 +378,6 @@
         </section>
       </section>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

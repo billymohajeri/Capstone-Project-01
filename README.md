@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 <h3><b>Microverse Capstone Project - Module 1</b></h3>
@@ -239,7 +239,7 @@ I would like to thank all of my code reviewers for giving me constructive feedba
 
 ## 📺 Presentation <a name="presentation"></a>
 
-[Presentation about this project](https://www.loom.com/share/506c91dd53a44229a9c31ec8c3f6a828).
+[Presentation about this project](https://www.loom.com/share/506c91dd53a44229a9c31ec8c3f6a828)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

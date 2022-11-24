@@ -78,13 +78,15 @@ ul {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
+  line-height: 8vw;
   font: {
     weight: 400;
-    size: 2.4rem;
+    // size: 2.4rem;
+    size: 7vw;
     family: "COCOGOOSE", sans-serif;
   }
 
-  line-height: 2.2rem;
+  line-height: 7vw;
   margin: {
     top: -1.5rem;
     left: 2rem;
@@ -873,5 +875,25 @@ ul {
     text-decoration: underline;
     text-align: center;
     margin-top: 4rem;
+  }
+
+  .home-2-title {
+    line-height: 5vw;
+    font: {
+      size: 4vw;
+    }
+  }
+
+  .home-p {
+    margin: {
+      top: 2rem;
+      left: 2rem;
+      right: 30rem;
+      bottom: 0;
+    }
+
+    background-color: #f8f8f9;
+    border: 0.2rem solid white;
+    padding: 3%;
   }
 }

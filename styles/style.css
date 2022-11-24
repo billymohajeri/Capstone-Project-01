@@ -374,7 +374,7 @@ ul {
   width: 60%;
 }
 
-.footer {
+.footer-about {
   margin-top: 3rem;
   display: flex;
   align-items: center;
@@ -382,12 +382,12 @@ ul {
   padding-bottom: 10%;
 }
 
-.footer .footer-logo {
-  width: 30vw;
+.footer-about .footer-about-logo {
+  width: 40vw;
   padding-right: 10%;
 }
 
-.footer .footer-text {
+.footer-about .footer-about-text {
   text-align: left;
   color: #272a31;
   font-size: smaller;
@@ -675,7 +675,30 @@ ul {
     background-position-y: 80%;
   }
 
-  .footer {
+  .footer-home {
+    background-color: white;
+    margin-top: 0;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-home .footer-home-logo {
+    width: 20vw;
+  }
+
+  .footer-home .footer-home-text {
+    text-align: left;
+    color: black;
+    opacity: 75%;
+    margin-left: 10%;
+    font-size: 0.75rem;
+  }
+
+  .footer-about {
     background-color: #2e2e2e;
     margin-top: 6rem;
     padding-bottom: 3%;
@@ -686,15 +709,16 @@ ul {
     justify-content: center;
   }
 
-  .footer .footer-logo {
+  .footer-about .footer-about-logo {
     width: 20vw;
   }
 
-  .footer .footer-text {
+  .footer-about .footer-about-text {
     text-align: left;
     color: white;
     opacity: 75%;
     font-size: 0.75rem;
+    margin-left: 10%;
   }
 
   .logo-box {

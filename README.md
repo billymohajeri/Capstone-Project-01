@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./assets/murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
 <h3><b>Microverse Capstone Project - Module 1</b></h3>

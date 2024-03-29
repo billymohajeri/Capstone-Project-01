@@ -25,8 +25,6 @@
 - [📺 Presentation](#presentation)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 Iranian Film Week 2023 <a name="about-project"></a>
 
 **Iranian Film Week 2023** is my first capstone project based on an online website for a conference. But I personalize the content for a film review week.

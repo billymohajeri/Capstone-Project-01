@@ -46,7 +46,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Responsive design for both Desktop and Mobile**
-- **Speaker section geerated dynamically via js**
+- **Speaker section generated dynamically via js**
 - **Designed with mobile first concept**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

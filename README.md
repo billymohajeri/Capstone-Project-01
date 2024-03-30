@@ -43,8 +43,6 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **Responsive design for both Desktop and Mobile**

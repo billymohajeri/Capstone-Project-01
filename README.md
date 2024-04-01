@@ -47,7 +47,7 @@
 
 - **Responsive design for both Desktop and Mobile**
 - **Speaker section generated dynamically via js**
-- **Designed with mobile first concept**
+- **Designed with mobile-first concept**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
